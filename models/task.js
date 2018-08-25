@@ -13,9 +13,9 @@ var Task=new Schema({
 	type: String,
 	index: true
   },
-  CreatedOn:  { 
+  createdOn:  { 
 	type: Date,
-	default: Date.Now
+	default: Date.now
   }
 });
 module.exports=mongoose.model('Task',Task);
